@@ -1,18 +1,6 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Oswald:wght@200..700&display=swap');
-.oswald-400 {
-  font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-}
 
-/*Add style lato font family to body*/
-.lato-light {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
 
 /*Asteric wildcard selector to overide default styles added by browser*/
 * {
@@ -30,6 +18,7 @@ body {
     flex-direction: column;
     /* Generic  project style */
     color: #3a3a3a;
+    font-family: sans-serif;
 }
 
 
